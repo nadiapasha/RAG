@@ -1,0 +1,6 @@
+DATA_PATH: 'data/'
+LLM: 'mistral-7b-instruct-v0.1.Q4_K_M'  
+EMB_MODEL: 'sentence-transformers/bert-base-nli-mean-tokens'  
+WEAVIATE_URL: 'http://localhost:8080'
+INDEX_NAME: 'Camel'
+CHUNK_SIZE: 1000
